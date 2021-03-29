@@ -1,0 +1,22 @@
+{
+  "name": "DLDataHandle",
+  "version": "0.1.0",
+  "summary": "A short description of DLDataHandle.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lee_weiqiong@163.com/DLDataHandle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lee_weiqiong@163.com": "lee_weiqiong@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lee_weiqiong@163.com/DLDataHandle.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DLDataHandle/Classes/**/*"
+}

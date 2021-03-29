@@ -1,0 +1,16 @@
+PODS:
+  - DLDataHandle (0.1.0)
+
+DEPENDENCIES:
+  - DLDataHandle (from `../`)
+
+EXTERNAL SOURCES:
+  DLDataHandle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DLDataHandle: 635bbe83119b29140fffe8006a2b7d725d97550e
+
+PODFILE CHECKSUM: f532c78f717db0a8639ad8066e1b08349fcf6849
+
+COCOAPODS: 1.10.1

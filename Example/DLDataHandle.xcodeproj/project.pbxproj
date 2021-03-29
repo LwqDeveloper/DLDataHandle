@@ -22,6 +22,10 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		8256B1DB2611686800AE26AE /* DLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8256B1DA2611686800AE26AE /* DLFileManager.m */; };
+		8256B1E22611687300AE26AE /* DLUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 8256B1E12611687300AE26AE /* DLUserDefaults.m */; };
+		8256B1E72611687C00AE26AE /* DLSqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8256B1E62611687C00AE26AE /* DLSqlite.m */; };
+		8256B1EC261168BF00AE26AE /* DLArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8256B1EB261168BF00AE26AE /* DLArchiver.m */; };
 		863109E1CE31AB1C00F53552 /* Pods_DLDataHandle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F44A08E09EFF5117915FA3 /* Pods_DLDataHandle_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -60,13 +64,22 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75254C59292643890A5DE174 /* Pods_DLDataHandle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLDataHandle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8256B1D82611684900AE26AE /* DLDataHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLDataHandle.h; sourceTree = "<group>"; };
+		8256B1D92611686800AE26AE /* DLFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLFileManager.h; sourceTree = "<group>"; };
+		8256B1DA2611686800AE26AE /* DLFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLFileManager.m; sourceTree = "<group>"; };
+		8256B1E02611687300AE26AE /* DLUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLUserDefaults.h; sourceTree = "<group>"; };
+		8256B1E12611687300AE26AE /* DLUserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLUserDefaults.m; sourceTree = "<group>"; };
+		8256B1E52611687C00AE26AE /* DLSqlite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLSqlite.h; sourceTree = "<group>"; };
+		8256B1E62611687C00AE26AE /* DLSqlite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLSqlite.m; sourceTree = "<group>"; };
+		8256B1EA261168BF00AE26AE /* DLArchiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLArchiver.h; sourceTree = "<group>"; };
+		8256B1EB261168BF00AE26AE /* DLArchiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLArchiver.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D706CC7C8325B570F15437D /* Pods-DLDataHandle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLDataHandle_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DLDataHandle_Tests/Pods-DLDataHandle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		96767B91C5AA2CA2E927F4FC /* DLDataHandle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DLDataHandle.podspec; path = ../DLDataHandle.podspec; sourceTree = "<group>"; };
+		96767B91C5AA2CA2E927F4FC /* DLDataHandle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DLDataHandle.podspec; path = ../DLDataHandle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB52609F4200CB4850AA417 /* Pods-DLDataHandle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLDataHandle_Example.debug.xcconfig"; path = "Target Support Files/Pods-DLDataHandle_Example/Pods-DLDataHandle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B4937C271421F5E7121D37BF /* Pods-DLDataHandle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLDataHandle_Example.release.xcconfig"; path = "Target Support Files/Pods-DLDataHandle_Example/Pods-DLDataHandle_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CFFB5697BA55714357EEA7C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D81B0EA4F67F801ABF596258 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CFFB5697BA55714357EEA7C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D81B0EA4F67F801ABF596258 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +116,6 @@
 				8D706CC7C8325B570F15437D /* Pods-DLDataHandle_Tests.debug.xcconfig */,
 				12675FF9028F398A74BDA36A /* Pods-DLDataHandle_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +156,7 @@
 		6003F593195388D20070C39A /* Example for DLDataHandle */ = {
 			isa = PBXGroup;
 			children = (
+				8256B1CD261167F600AE26AE /* Classes */,
 				6003F59C195388D20070C39A /* DLAppDelegate.h */,
 				6003F59D195388D20070C39A /* DLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -195,6 +208,55 @@
 				CFFB5697BA55714357EEA7C8 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8256B1CD261167F600AE26AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8256B1D82611684900AE26AE /* DLDataHandle.h */,
+				8256B1CE261167F600AE26AE /* DLArchiver */,
+				8256B1D0261167F600AE26AE /* DLSqlite */,
+				8256B1D1261167F600AE26AE /* DLFileManager */,
+				8256B1D2261167F600AE26AE /* DLUserDefaults */,
+			);
+			name = Classes;
+			path = ../../DLDataHandle/Classes;
+			sourceTree = "<group>";
+		};
+		8256B1CE261167F600AE26AE /* DLArchiver */ = {
+			isa = PBXGroup;
+			children = (
+				8256B1EA261168BF00AE26AE /* DLArchiver.h */,
+				8256B1EB261168BF00AE26AE /* DLArchiver.m */,
+			);
+			path = DLArchiver;
+			sourceTree = "<group>";
+		};
+		8256B1D0261167F600AE26AE /* DLSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				8256B1E52611687C00AE26AE /* DLSqlite.h */,
+				8256B1E62611687C00AE26AE /* DLSqlite.m */,
+			);
+			path = DLSqlite;
+			sourceTree = "<group>";
+		};
+		8256B1D1261167F600AE26AE /* DLFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				8256B1D92611686800AE26AE /* DLFileManager.h */,
+				8256B1DA2611686800AE26AE /* DLFileManager.m */,
+			);
+			path = DLFileManager;
+			sourceTree = "<group>";
+		};
+		8256B1D2261167F600AE26AE /* DLUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				8256B1E02611687300AE26AE /* DLUserDefaults.h */,
+				8256B1E12611687300AE26AE /* DLUserDefaults.m */,
+			);
+			path = DLUserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +320,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,8 +428,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* DLAppDelegate.m in Sources */,
+				8256B1E22611687300AE26AE /* DLUserDefaults.m in Sources */,
+				8256B1DB2611686800AE26AE /* DLFileManager.m in Sources */,
 				6003F5A7195388D20070C39A /* DLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8256B1EC261168BF00AE26AE /* DLArchiver.m in Sources */,
+				8256B1E72611687C00AE26AE /* DLSqlite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,6 @@
+framework module DLDataHandle {
+  umbrella header "DLDataHandle-umbrella.h"
+
+  export *
+  module * { export * }
+}

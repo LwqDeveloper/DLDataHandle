@@ -6,13 +6,15 @@
 //  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
-#import "CPDAppDelegate.h"
+#import "DLAppDelegate.h"
+#import "DLViewController.h"
 
-@implementation CPDAppDelegate
+@implementation DLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+        
     return YES;
 }
 
@@ -44,4 +46,3 @@
 }
 
 @end
-Õ

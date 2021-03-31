@@ -1,5 +1,5 @@
 //
-//  DLUserDefaults.h
+//  TestFileManager.h
 //  DLDataHandle_Example
 //
 //  Created by jamelee on 2021/3/29.
@@ -10,7 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DLUserDefaults : NSObject
+@interface TestFileManager : NSObject
+
++ (void)testBaseFolder;
++ (void)testCreateFolder;
++ (void)testFolderSize;
 
 @end
 

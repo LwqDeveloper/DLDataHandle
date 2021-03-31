@@ -1,5 +1,5 @@
 PODS:
-  - DLDataHandle (0.1.0)
+  - DLDataHandle (0.0.2)
 
 DEPENDENCIES:
   - DLDataHandle (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DLDataHandle: 635bbe83119b29140fffe8006a2b7d725d97550e
+  DLDataHandle: c573e9106b1c4596b5d19e391b48d62481258c65
 
 PODFILE CHECKSUM: f532c78f717db0a8639ad8066e1b08349fcf6849
 

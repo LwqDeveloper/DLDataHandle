@@ -1,29 +1,9 @@
 # DLDataHandle
 
-[![CI Status](https://img.shields.io/travis/lee_weiqiong@163.com/DLDataHandle.svg?style=flat)](https://travis-ci.org/lee_weiqiong@163.com/DLDataHandle)
-[![Version](https://img.shields.io/cocoapods/v/DLDataHandle.svg?style=flat)](https://cocoapods.org/pods/DLDataHandle)
-[![License](https://img.shields.io/cocoapods/l/DLDataHandle.svg?style=flat)](https://cocoapods.org/pods/DLDataHandle)
-[![Platform](https://img.shields.io/cocoapods/p/DLDataHandle.svg?style=flat)](https://cocoapods.org/pods/DLDataHandle)
+### NSUserDefaults缺点
+#### 1.不能统计保存的key值，容易产生垃圾数据
+#### 2.每次都要手动save
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-DLDataHandle is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'DLDataHandle'
-```
-
-## Author
-
-lee_weiqiong@163.com, lee_weiqiong@163.com
-
-## License
-
-DLDataHandle is available under the MIT license. See the LICENSE file for more info.
+### DLUserDefaultsModel改进
+#### 1.自定义model继承自DLUserDefaultsModel，添加属性清晰可见
+#### 2.属性使用 @dynamic 调用runtime替换方法 ，自动sava

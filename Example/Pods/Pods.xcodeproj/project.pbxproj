@@ -46,16 +46,16 @@
 
 /* Begin PBXFileReference section */
 		055E5A522FF4D37DF3F34256BC1313B2 /* Pods-DLDataHandle_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLDataHandle_Tests-Info.plist"; sourceTree = "<group>"; };
-		0C9FDE018B6A4D9808FF8A198BEE91D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0CF6FEF5ACB097C041D8CCB7BA521F55 /* DLDataHandle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DLDataHandle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0C9FDE018B6A4D9808FF8A198BEE91D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0CF6FEF5ACB097C041D8CCB7BA521F55 /* DLDataHandle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DLDataHandle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1639B2FA0F183CEC261514EFA0F8F2B4 /* DLUserDefaultsModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLUserDefaultsModel.h; sourceTree = "<group>"; };
-		1874749F55BAE645B3E4A8F823D0977E /* DLDataHandle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLDataHandle.framework; path = DLDataHandle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A21C9EAC63BBD6E4177BEA5916753C1 /* Pods_DLDataHandle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DLDataHandle_Tests.framework; path = "Pods-DLDataHandle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874749F55BAE645B3E4A8F823D0977E /* DLDataHandle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLDataHandle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A21C9EAC63BBD6E4177BEA5916753C1 /* Pods_DLDataHandle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLDataHandle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D1585BC04316C0661B2CEA49C0848E /* DLSqlite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLSqlite.m; sourceTree = "<group>"; };
 		2BFD358A5CD6E63C60798CE1497050B4 /* DLFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLFileManager.m; sourceTree = "<group>"; };
 		3286E53EC9E191A56776A2FEB567B0E3 /* DLArchiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLArchiver.h; sourceTree = "<group>"; };
 		337AA0543BFA00BEBCB69FC808718586 /* DLUserDefaultsModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLUserDefaultsModel.m; sourceTree = "<group>"; };
-		40AC72375DC4A2B1344F015F33369A55 /* Pods_DLDataHandle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DLDataHandle_Example.framework; path = "Pods-DLDataHandle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40AC72375DC4A2B1344F015F33369A55 /* Pods_DLDataHandle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLDataHandle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46555254CB0A7AF6D2DA64E7F03AEEF1 /* DLSqlite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLSqlite.h; sourceTree = "<group>"; };
 		46D6C55A44402AA2EBC9DCFBB8B249F2 /* DLArchiver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLArchiver.m; sourceTree = "<group>"; };
 		47181297D1D9B6B6C33441233F197D58 /* Pods-DLDataHandle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLDataHandle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		6934B1648F7E3479DD56C0CF63CCC3EA /* DLFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLFileManager.h; sourceTree = "<group>"; };
 		6FA099FE01544EA046F8A63A9F80A647 /* Pods-DLDataHandle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLDataHandle_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7685EFDEDCD6377B8AD4AA4335C53F36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7685EFDEDCD6377B8AD4AA4335C53F36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		79E0468DE77EE8C8187FD19A07D5E12F /* Pods-DLDataHandle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DLDataHandle_Example.modulemap"; sourceTree = "<group>"; };
 		8674CD6323769916B765D8776ADACBF0 /* Pods-DLDataHandle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLDataHandle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		869CA2DC96EB13F69A8BD7386117F96A /* Pods-DLDataHandle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DLDataHandle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		9720D32221E2AD19A8CB14B62C5F3F25 /* Pods-DLDataHandle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DLDataHandle_Tests-umbrella.h"; sourceTree = "<group>"; };
 		97B9DDFCBB64D29A796A4E38BADE897B /* Pods-DLDataHandle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLDataHandle_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9A9EE4A4C7EDB2FD682E889CF72C7282 /* Pods-DLDataHandle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DLDataHandle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E13D81DC4D6584176D08CDD1A44D589 /* Pods-DLDataHandle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DLDataHandle_Tests.modulemap"; sourceTree = "<group>"; };
 		AE3D86107522DEDE44B612C3730DD820 /* Pods-DLDataHandle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLDataHandle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B50C207B064553D9FFCC3A5008C88781 /* Pods-DLDataHandle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DLDataHandle_Example-dummy.m"; sourceTree = "<group>"; };
@@ -786,8 +786,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
